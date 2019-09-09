@@ -104,7 +104,7 @@ def generate_dashboard(args):
         if not opts.output:
             print_dashboard(dashboard)
         else:
-            with open(opts.output, 'w') as output:
+            with open( opts.output, 'w', encoding="utf-8" ) as output:
                 write_dashboard(dashboard, output)
     except DashboardError as e:
         sys.stderr.write('ERROR: {}\n'.format(e))
