@@ -1,4 +1,11 @@
 ==========
+修改
+==========
+1、fix 中文在 grafana 上显示乱码;
+2、add 视图纵坐标 [0,100] 的展示方式;
+
+
+==========
 grafanalib
 ==========
 
@@ -165,4 +172,3 @@ If you have any questions about, feedback for or problems with ``grafanalib``:
 - `File an issue <https://github.com/weaveworks/grafanalib/issues/new>`_.
 
 Your feedback is always welcome!
-forked
