@@ -54,8 +54,8 @@ def print_dashboard(dashboard):
 def write_dashboards(paths):
     for path in paths:
         dashboard = load_dashboard(path)
-        with open(get_json_path(path), 'w') as json_file:
-            write_dashboard(dashboard, json_file)
+        with open( get_json_path( path ), 'w', encoding="utf-8" ) as json_file:
+            write_dashboard( dashboard, json_file )
 
 
 def get_json_path(path):
