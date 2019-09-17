@@ -1,0 +1,2 @@
+APP 推送--同步批量推送--请求总量--notification_app_rest_reqnum
+短信推送--单发短信--请求总量--notification_sms_rest_reqnum
