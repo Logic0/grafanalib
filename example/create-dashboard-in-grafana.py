@@ -2,11 +2,11 @@
 #-*-coding:utf-8
 
 '''
-HOST http://193.112.84.190/
+HOST http://1.1.8.1/
 POST /api/dashboards/db HTTP/1.1
 Accept: application/json
 Content-Type: application/json
-Authorization: Bearer eyJrIjoiQlRQcGRiMFViWURrUWtGaGdWaTRObWJldWE1cG5vRzQiLCJuIjoiYXV0by1kYXNoYm9hcmQiLCJpZCI6MX0=
+Authorization: Bearer eyJrIjoaTRObWJldWE1cG5vRzQiLCJuIjoiYXV0by1kYXNoYm9hcmQiLCJpZCI6MX0=
 
 {
   "dashboard": {
